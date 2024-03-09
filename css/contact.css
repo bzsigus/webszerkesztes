@@ -36,7 +36,14 @@
 
     .navbar-menu li:nth-child(4) {
         border-bottom: .18rem solid black;
-        
+    }
+    #main{
+        text-align: center;
+        background-color: gray;
+        width: 80%;
+        margin: auto;
+        height: 35rem;
+        border-radius: 4%;
     }
 
 }

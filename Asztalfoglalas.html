@@ -43,22 +43,37 @@
                 <li><a href="./Itallap.html">Itallap</a></li>
                 <li><a href="./Asztalfoglalas.html">Asztalfoglalás</a></li>
             </ul>
-    </header>
-<main>
-    <fieldset>
-    <legend>Név és Email</legend>
-    <form action="mailto:Imaginary@gmail.com" method="post">
-    <input type="text" value="Példa Péter" size="20" maxlength="50"/>
-    <br>
-    <input type="email" value="peldapeter@gmail.com" required>
-</fieldset>
+</header>
+<main id="main">
+<form action="/submit" method="post">
+    <label for="name">Név:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="table">Asztalok száma:</label>
+    <input type="number" id="table" name="table" min="1" required><br><br>
+    
+    <input type="checkbox" id="special" name="special">
+    <label for="special">Különleges igény</label>
+    <select id="type" name="type">
+        <option value="Etetőszék">Etetőszék</option>
+        <option value="Akadálymentes asztal">Akadálymentes asztal</option>
+    </select><br><br>
+    
+    <label for="message">Üzenet:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">Tudomásul vettem a feltételeket és lefoglalom az asztalt</label><br><br>
+    
+    <input type="submit" value="Küldés">
+    <input type="reset" value="Reset">
+</form>
 
-
-
-
-    <button type="submit">Submit</button>
-    </form>
-    <footer>
+</main>
+<footer>
         <div>
           <h4>Készítette: Zsigus Bence</h4>
           <p id="gtilink"><a href="https://github.com/bzsigus" target="_blank">Github</a></p>
