@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Főoldal</title>
+</head>
+<body>
+<header>
+    <!--Sima nav lapot dekstop-->
+    <nav class="navbar">
+        <div id="logo">
+            <img src="./imgs/logo.png" alt="">
+        <p lang="en">Imaginary</p>
+        </div>
+          <ul class="navbar-menu">
+              <li><a class="aktual" href="./index.html">Főoldal</a></li>
+              <li><a href="./etlap.html">Étlap</a></li>
+              <li><a href="./Itallap.html">Itallap</a></li>
+              <li><a href="./Asztalfoglalas.html">Asztalfoglalás</a></li>
+          </ul>
+          <i class="fas fa-moon icon" onclick="toggleIcon()" ></i>
+      </nav>
+      <!-- hamb nav telefon és tablet-->
+      <nav class="hamb-nav">
+        <div id="hamb-logo">
+            <img src="./imgs/logo.png" alt="">
+        <p lang="en">Imaginary</p>
+        </div>
+        <div class="hamb-icon" onclick="toggleMenu()">
+        <hr>
+        <hr>
+        <hr>
+        </div>
+        <i class="fas fa-moon hicon" onclick="toggleIcon()" ></i>
+      </nav>
+        <ul class="hamb-navbar-menu">
+            <li><a  href="./index.html">Főoldal</a></li>
+            <li ><a class="aktual" href="./etlap.html">Étlap</a></li>
+            <li><a href="./Itallap.html">Itallap</a></li>
+            <li><a href="./Asztalfoglalas.html">Asztalfoglalás</a></li>
+        </ul>
+</header>
+<main>
+<section id="kep">
+         <article class="kepszoveg">
+           <h1>Üdvözlunk éttermunk Weboldalán</h1>
+                   <p>Kóstolja meg kulináris remekeinket és élvezze vendégszeretetünket! Várjuk szeretettel éttermünkben!                    </p>
+            <button id="gomb"><a href="./Asztalfoglalas.html">Asztalfoglalás</a></button>
+         </article>
+</section>
+            <section >
+              <h2 id="galeryh2">Tekinste meg éttermunk Galáriáját</h2>
+                <div id="cont">
+                  <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galria1.jpeg">
+                        <img src="./imgs/fooldal/galria1.jpeg" alt="Cinque Terre">
+                      </a>
+                      <div class="desc">Az étterem belső tere csillogó kandeláberekkel és lágy fényekkel várja vendégeit, amelyek kellemes és meghitt légkört teremtenek.
+                      </div>
+                    </div>
+                  
+                    <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galeria2.jpg">
+                        <img src="./imgs/fooldal/galeria2.jpg" alt="Forest"  >
+                      </a>
+                      <div class="desc">Az étterem néhány asztalánál impozáns kilátás és tágas panorámaablakok nyújtanak lehetőséget, hogy a vendégek élvezhessék a város vagy a táj szépségét, miközben ízlelik az ételeket és élvezik a társaságot.
+                      </div>
+                    </div>
+                  
+                    <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galeria3.jpg">
+                        <img src="./imgs/fooldal/galeria3.jpg" alt="Northern Lights" >
+                      </a>
+                      <div class="desc">A modern és stílusos bútorok és dekorációk harmonikusan egyesülnek az étterem belső terében, létrehozva egy elegáns és kifinomult atmoszférát.
+                      </div>
+                    </div>
+                  
+                    <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galeria4.webp">
+                        <img src="./imgs/fooldal/galeria4.webp" alt="Mountains">
+                      </a>
+                      <div class="desc">Az étterem belső terében elhelyezett intim asztalok és luxus kényelem ötvözete tökéletes helyszínt teremt egy romantikus vacsorához vagy egy exkluzív üzleti találkozóhoz.
+                      </div>
+                    </div>
+                  <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galeria2-1.jpg">
+                        <img src="./imgs/fooldal/galeria2-1.jpg" alt="Cinque Terre" >
+                      </a>
+                      <div class="desc">Friss kevert saláta ágyon fekszik, gazdagon megszórva szezámmaggal és pirított tökmaggal. A tetején kifőzött tojás szeletekkel és friss, ízletes paradicsomkarikákkal. A salátát finom olívabogyók és házi készítésű balzsamecet öntet teszi tökéletessé.
+                      </div>
+                    </div>
+                  
+                    <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galeria2-2.jpg">
+                        <img src="./imgs/fooldal/galeria2-2.jpg" alt="Forest" >
+                      </a>
+                      <div class="desc">Száraz vöröslencsés pita különleges, rántott húshoz hasonlító töltelékkel, amelyet körít a ropogós zöldségekkel és a fűszeres jalapeno mártással. Az ételt friss zöldfűszerekkel és pirított szezámmaggal szolgáljuk, hogy az ízek teljesen kibontakozzanak.
+                      </div>
+                    </div>
+                  
+                    <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galeria2-3.jpg">
+                        <img src="./imgs/fooldal/galeria2-3.jpg" alt="Northern Lights" >
+                      </a>
+                      <div class="desc">Szárazra sütött karajszelet, melyet ropogósra sütünk és friss salátával tálalunk. Az étel tökéletesen kiegészül a pikáns foghagymás-kapros öntettel, mely fokozza a hús ízét és frissességét. A különleges összeállítás friss zöldségekkel és zöldfűszerekkel garantáltan egy ízletes és egészséges ételélményt kínál.
+                      </div>
+                    </div>
+                  
+                    <div class="gallery">
+                      <a target="_blank" href="./imgs/fooldal/galeria2-4.jpg">
+                        <img src="./imgs/fooldal/galeria2-4.jpg" alt="Mountains" >
+                      </a>
+                      <div class="desc">Egy gazdag, laktató bableves, melyet füstölt hússal és friss zöldségekkel főzünk. A krémes és ízletes leves tökéletes egyensúlyt teremt a szaftos hús és a friss zöldségek között, miközben a füstölt ízjegyek mélyítik az ízélményt.
+                      </div>
+                    </div>
+                </div>
+            </section>
+            <section id="video">
+              <h2>Egy recept a szakácsunktól</h2>
+              <video src="./imgs/fooldal/video.mp4" controls ></video>
+            </section>
+        </main>
+    <footer>
+      <div>
+        <h4>Készítette: Zsigus Bence</h4>
+        <p id="gtilink"><a href="https://github.com/bzsigus" target="_blank">Github</a></p>
+      </div>
+        <span id="line"></span>
+      <p>Az oldalon található képek és videók más tulajdonát képezik,<br> kizárólag tájékoztatási célokra használom őket. <br>Minden szerzői jog a tartalom eredeti tulajdonosáé</p>
+    </footer>
+    <script src="./js/nav.js"></script>
+</body>
+</html>

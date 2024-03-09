@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/Itallap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Ajándékcsomagok</title>
+</head>
+<body>
+    <header>
+        <!--Sima nav lapot dekstop-->
+        <nav class="navbar">
+            <div id="logo">
+                <img src="./imgs/logo.png" alt="" width="50rem">
+            <p lang="en">Imaginary</p>
+            </div>
+              <ul class="navbar-menu">
+                  <li><a class="aktual" href="./index.html">Főoldal</a></li>
+                  <li><a href="./etlap.html">Étlap</a></li>
+                  <li><a href="./Itallap.html">Itallap</a></li>
+                  <li><a href="./Asztalfoglalas.html">Asztalfoglalás</a></li>
+              </ul>
+              <i class="fas fa-moon icon" onclick="toggleIcon()" ></i>
+          </nav>
+          <!-- hamb nav telo és tablet-->
+          <nav class="hamb-nav">
+            <div id="hamb-logo">
+                <img src="./imgs/logo.png" alt="" width="50rem">
+            <p lang="en">Imaginary</p>
+            </div>
+            <div class="hamb-icon" onclick="toggleMenu()">
+            <hr>
+            <hr>
+            <hr>
+            </div>
+            <i class="fas fa-moon hicon" onclick="toggleIcon()" ></i>
+          </nav>
+            <ul class="hamb-navbar-menu">
+                <li><a  href="./index.html">Főoldal</a></li>
+                <li ><a class="aktual" href="./etlap.html">Étlap</a></li>
+                <li><a href="./Itallap.html">Itallap</a></li>
+                <li><a href="./Asztalfoglalas.html">Asztalfoglalás</a></li>
+            </ul>
+    </header>
+    
+
+
+    <script src="./js/nav.js"></script>
+</body>
+</html>
