@@ -84,24 +84,8 @@ body{
   video{
   width:100%;
   }
-   /*fotter*/
-footer{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem ;
+ 
 }
-footer div{
-  text-align: center;
-  line-height: 1.5rem;
-}
-}
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 /*kep és cim*/
@@ -184,21 +168,7 @@ footer div{
   video{
   width:100%;
   }
-  /*fotter*/
-footer{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem ;
-}
-footer div{
-  text-align: center;
-  line-height: 1.5rem;
-}
+  
 
 }
 
@@ -278,23 +248,7 @@ footer div{
   video{
   width:100%;
   }
-  /*fotter*/
-  #line{
-    width: 2px;
-    background-color: black;
-    place-self: center;
-    height: 100%;
-  }
-  footer{
-  margin-top: 1.5rem;
-  width: 100%;
-  height: 10rem;
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  place-items: center;
-  font-size: 1rem;
-  }
-  
+ 
   #gomb{
     margin-top: 0.8rem;
     font-size: 1rem;
@@ -378,26 +332,6 @@ margin: auto;
 }
 video{
 width:100%;
-}
-/*fotter*/
-#line{
-  width: 2px;
-  background-color: black;
-  place-self: center;
-  height: 100%;
-}
-footer{
-margin-top: 1.5rem;
-width: 100%;
-height: 12rem;
-display: grid;
-grid-template-columns: 2fr 2fr 2fr;
-place-items: center;
-font-size: 1.5rem;
-}
-footer div{
-  text-align: center;
-  line-height: 3rem;
 }
 #gomb{
   margin-top: 0.8rem;
@@ -486,28 +420,5 @@ font-size: 2rem;
   }
 video{
   width:100%;
-}
-/*fotter*/
-#line{
-  width: 2px;
-  background-color: black;
-  place-self: center;
-  height: 100%;
-}
-footer{
-margin-top: 1.5rem;
-width: 100%;
-height: 12rem;
-display: grid;
-grid-template-columns: 2fr 2fr 2fr;
-place-items: center;
-font-size: 1.5rem;
-}
-footer div{
-  text-align: center;
-  line-height: 2.5rem;
-}
-footer p{
-  font-size: 1rem;
 }
 }
