@@ -14,7 +14,7 @@ function toggleIcon(){
 
   //fehér téma
   if(icon.classList.contains('fa-moon')){
-    line.style.backgroundColor = 'black'
+    
     icon.classList.remove('fa-moon');
     icon.classList.add('fa-sun');
     document.body.style.backgroundColor = 'black';
@@ -29,6 +29,7 @@ function toggleIcon(){
     menuItemshamb.forEach(item => {
       item.style.color = 'white';
     }); 
+    line.style.backgroundColor = 'black'
   }else{
     //fekete téma
     icon.classList.remove('fa-sun');
