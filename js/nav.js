@@ -14,7 +14,7 @@ function toggleIcon(){
 
   //fehér téma
   if(icon.classList.contains('fa-moon')){
-    
+    line.style.backgroundColor = 'black'
     icon.classList.remove('fa-moon');
     icon.classList.add('fa-sun');
     document.body.style.backgroundColor = 'black';
@@ -29,9 +29,10 @@ function toggleIcon(){
     menuItemshamb.forEach(item => {
       item.style.color = 'white';
     }); 
-    line.style.backgroundColor = 'black'
+ 
   }else{
     //fekete téma
+    line.style.backgroundColor = 'white'
     icon.classList.remove('fa-sun');
     icon.classList.add('fa-moon');
     document.body.style.backgroundColor = 'white'; 
@@ -46,8 +47,9 @@ function toggleIcon(){
     menuItemshamb.forEach(item => {
       item.style.color = 'black';
       }); 
+   
   }
-  line.style.backgroundColor = 'white'
+ 
 }
     
     
