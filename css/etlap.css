@@ -35,23 +35,81 @@
     .navbar-menu li:nth-child(2) {
         border-bottom: .18rem solid black;
     }
-    .gallery-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        justify-items: center;
-    }
-
-    .gallery {
+    /*eglsz étlap*/
+    #etlap h2{
         text-align: center;
     }
-
-    .gallery img {
-        width: 100%;
-        height: auto;
+    #etlap{
+        width: 80%;
+        background-color: grey;
+        border-radius: 10px;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        margin: auto;
+        margin: 1rem 0 1rem 0;
+    }
+    hr{
+        border: none;
+        border-top: .2rem solid black;
+        margin: 1rem 0 1rem 0;
+    }
+     /*levesek szekció*/
+    #levesek{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+    #levesek img{
+        width: 15rem;
+        place-self: center;
+    
+    }
+     /*Foetel szekció*/
+    #foetel{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+    #foetel img{
+        width: 15rem;
+        place-self: center;
     }
 
-    .desc {
-        margin-top: 10px;
+    /*Desszert szekció*/
+    #desszert{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
     }
+    #desszert img{
+        width: 15rem;
+        place-self: center;
+    }
+
+    /*A menuket tartalmazo konténerek*/
+    .cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 0 1rem 0;
+    }
+    .cont p{
+        align-self: center;
+        justify-self: end;
+    }  
+    .left{
+        margin-left: 1rem;
+    }
+    .right{
+        margin-right: 1rem;
+    }
+    /*tablazat*/
+    #tablazat{
+
+        margin: auto;
+        margin-top: 2rem;
+        border: 1px solid black;
+    }
+
 }
