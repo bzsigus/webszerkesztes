@@ -22,7 +22,7 @@ body{
 .kepszoveg{
   text-align: center;
   font-size: 2rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255,0.5);
   }
 .kepszoveg h1{
   margin: 1rem;
@@ -109,6 +109,8 @@ body{
 .kepszoveg{
   text-align: center;
   font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.5);
+
   }
 .kepszoveg h1{
   margin: 1rem;
@@ -196,6 +198,7 @@ body{
 .kepszoveg{
   text-align: center;
   font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.5);
   }
 .kepszoveg h1{
   margin: 1rem;
@@ -280,6 +283,7 @@ body{
 .kepszoveg{
 text-align: center;
 font-size: 2rem;
+background-color: rgb(255, 255, 255, 0.5);
 }
 .kepszoveg h1{
 margin: 1rem;
@@ -363,7 +367,7 @@ width:100%;
 .kepszoveg{
 text-align: center;
 font-size: 2rem;
-background-color: rgb(255, 255, 255,0.5);
+background-color: rgb(255, 255, 255, 0.5);
 border-radius: 20px;
 }
 .kepszoveg h1{
