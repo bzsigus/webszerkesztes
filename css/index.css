@@ -4,6 +4,9 @@ body{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .hamb-navbar-menu li:nth-child(1) {
+    list-style:circle;
+}
 /*kep és cim*/
 #kep{  
   width: 100%;
@@ -91,6 +94,9 @@ body{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .hamb-navbar-menu li:nth-child(1) {
+    list-style:circle;
+}
 /*kep és cim*/
 #kep{  
   width: 100%;
@@ -180,6 +186,9 @@ body{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .hamb-navbar-menu li:nth-child(1) {
+    list-style:circle;
+}
 /*kep és cim*/
 #kep{  
   width: 100%;
@@ -265,6 +274,9 @@ body{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .navbar-menu li:nth-child(1) {
+    border-bottom: .18rem solid rgb(120, 120, 120);
+}
  /*kep és cim*/
 #kep{  
   width: 100%;
@@ -284,6 +296,7 @@ body{
 text-align: center;
 font-size: 2rem;
 background-color: rgb(255, 255, 255, 0.5);
+height: 14rem;
 }
 .kepszoveg h1{
 margin: 1rem;
@@ -340,15 +353,20 @@ margin: auto;
 video{
 width:100%;
 }
-#gomb{
-  margin-top: 0.8rem;
-  font-size: 1rem;
+#button{
   padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  background: grey;
+  border-radius: 5px;
 }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .navbar-menu li:nth-child(1) {
+    border-bottom: .18rem solid rgb(120, 120, 120);
+}
 /*kep és cim*/
 #kep{  
     width: 100%;

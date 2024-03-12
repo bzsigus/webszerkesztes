@@ -6,15 +6,15 @@ function toggleMenu() {
 
 
 function toggleIcon(){
-  const icon = document.querySelector('.icon')
-  const icon2 = document.querySelector('.hicon')
+  const icon = document.querySelector('.icon');
+  const icon2 = document.querySelector('.hicon');
   const menuItems = document.querySelectorAll('.navbar-menu li a');
-  const menuItemshamb = document.querySelectorAll('.hamb-navbar-menu li a')
-  const line = document.querySelector('footer span')
+  const menuItemshamb = document.querySelectorAll('.hamb-navbar-menu li a');
+  const line = document.getElementById('line');
 
-  //fehér téma
+  //fekete téma
   if(icon.classList.contains('fa-moon')){
-    line.style.backgroundColor = 'black'
+    line.style.backgroundColor = 'white'
     icon.classList.remove('fa-moon');
     icon.classList.add('fa-sun');
     document.body.style.backgroundColor = 'black';
@@ -31,8 +31,8 @@ function toggleIcon(){
     }); 
  
   }else{
-    //fekete téma
-    line.style.backgroundColor = 'white'
+    //fehér téma
+    line.style.backgroundColor = 'black';
     icon.classList.remove('fa-sun');
     icon.classList.add('fa-moon');
     document.body.style.backgroundColor = 'white'; 
