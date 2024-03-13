@@ -72,6 +72,27 @@ body{
   text-align: center;
   font-size: 1rem;
 }
+/*Social Linkek*/
+#linkek{
+  text-align: center;
+  margin: 1.5rem;
+  }
+  #linkek #maindiv{
+    margin: 1.5rem;
+    display: grid;
+    font-size: 2rem;
+  }
+  .link{
+    margin: 1rem;
+  }
+  .fa-instagram{
+    background-image: linear-gradient(to bottom right, #405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FCAF45,#FFDC80,#FD1D1D,#F56040);
+   background-clip: text;
+   color: transparent;
+  }
+  .fa-facebook{
+    color: blue;
+  }
 
 /*video*/
 #video h2{
@@ -163,6 +184,27 @@ body{
   text-align: center;
   font-size: 1rem;
 }
+/*Social Linkek*/
+#linkek{
+  text-align: center;
+  margin: 1.5rem;
+  }
+  #linkek #maindiv{
+    margin: 1.5rem;
+    display: grid;
+    font-size: 2rem;
+  }
+  .link{
+    margin: 1rem;
+  }
+  .fa-instagram{
+    background-image: linear-gradient(to bottom right, #405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FCAF45,#FFDC80,#FD1D1D,#F56040);
+   background-clip: text;
+   color: transparent;
+  }
+  .fa-facebook{
+    color: blue;
+  }
 
 /*video*/
 #video h2{
@@ -248,6 +290,26 @@ body{
   text-align: center;
   font-size: 1rem;
 }
+/*Social Linkek*/
+#linkek{
+  text-align: center;
+  margin: 1.5rem;
+  }
+  #linkek #maindiv{
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5rem;
+  }
+  .fa-instagram{
+    background-image: linear-gradient(to bottom right, #405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FCAF45,#FFDC80,#FD1D1D,#F56040);
+   background-clip: text;
+   color: transparent;
+  }
+  .fa-facebook{
+    color: blue;
+  }
+
 /*video*/
 #video h2{
   margin: 2rem;
@@ -337,6 +399,25 @@ margin-bottom: 3rem;
   text-align: center;
   font-size: 1rem;
 }
+/*Social Linkek*/
+#linkek{
+  text-align: center;
+  margin: 1.5rem;
+  }
+  #linkek #maindiv{
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+  }
+  .fa-instagram{
+    background-image: linear-gradient(to bottom right, #405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FCAF45,#FFDC80,#FD1D1D,#F56040);
+   background-clip: text;
+   color: transparent;
+  }
+  .fa-facebook{
+    color: blue;
+  }
 
 /*Vidoe*/
 #video h2{
@@ -433,6 +514,26 @@ border-radius: 20px;
     font-size: 1rem;
 }
 
+
+/*Social Linkek*/
+#linkek{
+text-align: center;
+margin: 1.5rem;
+}
+#linkek #maindiv{
+  margin: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 3rem;
+}
+.fa-instagram{
+  background-image: linear-gradient(to bottom right, #405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FCAF45,#FFDC80,#FD1D1D,#F56040);
+ background-clip: text;
+ color: transparent;
+}
+.fa-facebook{
+  color: blue;
+}
 /*Vidoe*/
 #video h2{
   margin: 2rem;
