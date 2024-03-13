@@ -25,7 +25,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .navbar-menu li:nth-child(2) {
-        border-bottom: .18rem solid black;
+        border-bottom: .18rem solid rgb(120, 120, 120);;
         
     } 
 }
@@ -33,7 +33,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .navbar-menu li:nth-child(2) {
-        border-bottom: .18rem solid black;
+        border-bottom: .18rem solid rgb(120, 120, 120);;
     }
     /*eglsz étlap*/
     #etlap h2{
