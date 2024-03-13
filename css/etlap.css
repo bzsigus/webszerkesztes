@@ -40,10 +40,13 @@
         text-align: center;
     }
     #etlap{
+
         width: 80%;
         background-color: grey;
         border-radius: 10px;
         margin: auto;
+        margin-top: 2rem;
+        padding-top: 1rem;
     }
     h1{
         text-align: center;
@@ -54,7 +57,7 @@
         border: none;
         border-top: .2rem solid black;
         margin: 1rem auto 1rem auto;
-        width: 80%;
+        width: 95%;
         
     }
      /*levesek szekció*/
