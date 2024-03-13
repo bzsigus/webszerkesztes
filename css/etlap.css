@@ -53,7 +53,9 @@
     hr{
         border: none;
         border-top: .2rem solid black;
-        margin: 1rem 0 1rem 0;
+        margin: 1rem auto 1rem auto;
+        width: 80%;
+        
     }
      /*levesek szekció*/
     #levesek{
@@ -99,10 +101,10 @@
         justify-self: end;
     }  
     .left{
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
     .right{
-        margin-right: 1rem;
+        margin-right: 3rem;
     }
     /*tablazat*/
     #tablazat {

@@ -44,16 +44,23 @@
         margin: auto;
         background-color: red;
         border-radius: 10px;
+        padding-bottom: 1rem;
     }
     #header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    border: 1px solid black;
+    font-size: 5rem;
     }
     #header img{
-        width: 90%;
-        height:90%;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      place-self: end;
+    }
+    #header h1{
+        border-radius: 10px;
+        padding: 3rem;
     }
     .cont{
         display: grid;
@@ -70,45 +77,31 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #grup1 h2{
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
     #grup2{
         margin-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-    #grup2 h2{
-        margin-left: 2rem;
-        margin-right: 2rem;
     }
     #grup3{
         margin-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #grup3 h2{
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+    
     #grup4{
         margin-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #grup4 h2{
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+    
     #grup5{
         margin-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 1rem;
     }
-    #grup5 h2{
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+   h2{
+    text-align: center;
+   }
 
 }
