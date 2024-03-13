@@ -1,6 +1,12 @@
 body{
   transition: background-color 0.8s ease;
 }
+.linkek{
+color: black;
+}
+.linkek:visited{
+  color: gray;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -42,7 +48,7 @@ body{
   background: gray;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 /*Galéria*/
@@ -164,7 +170,7 @@ body{
   background: gray;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 /*Galéria*/
@@ -285,7 +291,7 @@ body{
   background: gray;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 /*Galéria*/
 #cont{
@@ -399,7 +405,7 @@ margin: 1rem;
   background: gray;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 /*Galéria*/
@@ -512,7 +518,7 @@ line-height: 3rem;
   background: gray;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 /*Galéria*/

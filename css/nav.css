@@ -284,7 +284,7 @@ footer div{
         font-size: 1.5rem;
         height: 5rem;
        place-items: center;
-      
+       background-color: #E6E6EA;
     }   
     .navbar-menu{
       list-style: none;
@@ -393,12 +393,14 @@ footer div{
   }
   footer{
     margin-top: 1.5rem;
+    margin-bottom: 0;
     width: 100%;
     height: 12rem;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     place-items: center;
     font-size: 1.5rem;
+    background-color: #E6E6EA;
     }
     footer div{
       text-align: center;
@@ -407,12 +409,7 @@ footer div{
     footer p{
       font-size: 1rem;
     }
-    
-    
 }
-
-
-
 
 .fa-sun{
     color: yellow;
