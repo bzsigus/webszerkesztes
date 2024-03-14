@@ -41,8 +41,9 @@
         background-color: gray;
         width: 80%;
         margin: auto;
-        height: 35rem;
+        height: fit-content;
         border-radius: 1rem;
+        padding: 1rem;
         place-items: center;
         margin-top: 3rem;
         display: grid;
