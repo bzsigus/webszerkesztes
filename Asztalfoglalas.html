@@ -56,7 +56,7 @@
     <label for="table" class="tables">Hány főre?</label>
     <input type="number" id="table"  class="tables" min="1" max="30" required><br><br>
 
-    <input type="checkbox" id="special" name="special">
+    <input type="checkbox" id="special" name="special" onchange="toggleSelect()"> 
     <label for="special">Különleges igényem van </label>
     <select id="type" name="type">
         <option value="Kiválasztom">Kiválasztom</option>
@@ -82,5 +82,6 @@
         <p>Az oldalon található képek és videók más tulajdonát képezik,<br> kizárólag tájékoztatási célokra használom őket. <br>Minden szerzői jog a tartalom eredeti tulajdonosáé</p>
       </footer>
     <script src="./js/nav.js"></script>
+   
 </body>
 </html>
