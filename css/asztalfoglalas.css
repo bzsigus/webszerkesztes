@@ -1,3 +1,8 @@
+*{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -16,6 +21,53 @@
         margin-top: 1rem;
         display: grid;
     }
+    h1{
+        margin: 1rem;
+    }
+    label{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    #name{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    #email{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    #table{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    #special{
+        font-size: 1.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    #type{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    #message{
+    font-size: 1rem;
+    width: 90%;
+    height: 10rem;
+    }
+    #terms{
+        font-size: 1rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: auto;
+    }
+    #subbutton{
+        font-size: 1.5rem;
+    }
+    #resbutton{
+        font-size: 1.5rem;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -35,6 +87,33 @@
         place-items: center;
         margin-top: 1rem;
         display: grid;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+    #name{
+        font-size: 1.5rem;
+    }
+    #email{
+        font-size: 1.5rem;
+    }
+    #table{
+        font-size: 1rem;
+    }
+    #special{
+        font-size: 1.5rem;
+    }
+    #message{
+
+    }
+    #terms{
+
+    }
+    #subbutton{
+        
+    }
+    #resbutton{
+        
     }
 
 }
@@ -57,6 +136,33 @@
         margin-top: 3rem;
         display: grid;
     }
+    label{
+        font-size: 1.5rem;
+    }
+    #name{
+        font-size: 1.5rem;
+    }
+    #email{
+        font-size: 1.5rem;
+    }
+    #table{
+        font-size: 1rem;
+    }
+    #special{
+        font-size: 1.5rem;
+    }
+    #message{
+
+    }
+    #terms{
+
+    }
+    #subbutton{
+        
+    }
+    #resbutton{
+        
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -77,6 +183,33 @@
         margin-top: 3rem;
         display: grid;
     }
+    label{
+        font-size: 1.5rem;
+    }
+    #name{
+        font-size: 1.5rem;
+    }
+    #email{
+        font-size: 1.5rem;
+    }
+    #table{
+        font-size: 1rem;
+    }
+    #special{
+        font-size: 1.5rem;
+    }
+    #message{
+
+    }
+    #terms{
+
+    }
+    #subbutton{
+        
+    }
+    #resbutton{
+        
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -95,6 +228,33 @@
         place-items: center;
         margin-top: 3rem;
         display: grid;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+    #name{
+        font-size: 1.5rem;
+    }
+    #email{
+        font-size: 1.5rem;
+    }
+    #table{
+        font-size: 1rem;
+    }
+    #special{
+        font-size: 1.5rem;
+    }
+    #message{
+
+    }
+    #terms{
+
+    }
+    #subbutton{
+        
+    }
+    #resbutton{
+        
     }
 
 }
