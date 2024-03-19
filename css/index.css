@@ -1,11 +1,11 @@
 body{
   transition: background-color 0.8s ease;
 }
-.linkek{
+#linkek a{
 color: black;
 }
-.linkek:visited{
-  color: gray;
+#linkek a:visited{
+  color: grey;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -22,9 +22,9 @@ color: black;
   background-position: center;
   background-size: cover; 
   display: flex;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); 
   align-items: center;
   gap: 3rem;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
   color: black;
 }
 .kepszoveg{
