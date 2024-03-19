@@ -1,13 +1,6 @@
 body{
   transition: background-color 0.8s ease;
 }
-#linkek a{
-color: black;
-}
-#linkek a:visited{
-  color: grey;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hamb-navbar-menu li:nth-child(1) {
