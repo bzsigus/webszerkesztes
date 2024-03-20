@@ -41,6 +41,7 @@ body{
   background: gray;
   border-radius: 10px;
   text-decoration: none;
+  text-shadow: none;
   color: black;
 }
 
@@ -119,6 +120,9 @@ body{
   video{
   width:100%;
   }
+  #leiras{
+    margin-top: 1rem;
+    }
    
 }
 
@@ -163,6 +167,7 @@ body{
   background: gray;
   border-radius: 10px;
   text-decoration: none;
+  text-shadow: none;
   color: black;
 }
 
@@ -241,6 +246,9 @@ body{
   video{
   width:100%;
   }
+  #leiras{
+    margin-top: 1rem;
+    }
 }
 
 
@@ -284,6 +292,7 @@ body{
   background: gray;
   border-radius: 10px;
   text-decoration: none;
+  text-shadow: none;
   color: black;
 }
 /*Galéria*/
@@ -354,6 +363,9 @@ body{
   video{
   width:100%;
   }
+  #leiras{
+    margin-top: 1rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -398,6 +410,7 @@ margin: 1rem;
   background: gray;
   border-radius: 10px;
   text-decoration: none;
+  text-shadow: none;
   color: black;
 }
 
@@ -469,6 +482,10 @@ margin: auto;
 video{
 width:100%;
 }
+#leiras{
+  margin-top: 1rem;
+}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -511,6 +528,7 @@ line-height: 3rem;
   background: gray;
   border-radius: 10px;
   text-decoration: none;
+  text-shadow: none;
   color: black;
 }
 
@@ -581,5 +599,8 @@ margin: 1.5rem;
   }
 video{
   width:100%;
+}
+#leiras{
+margin-top: 1rem;
 }
 }
