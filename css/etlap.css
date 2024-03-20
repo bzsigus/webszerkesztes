@@ -80,6 +80,11 @@
     }
 
     /*tablazat*/
+    #det{
+        margin-top: 2rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
     #tablazat {
         width: 90%;
         margin: 2rem auto;
@@ -177,6 +182,11 @@
     }
 
     /*tablazat*/
+    #det{
+        margin-top: 2rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
     #tablazat {
         width: auto;
         margin: 2rem auto;
@@ -277,6 +287,11 @@
         margin-right: 3rem;
     }
     /*tablazat*/
+    #det{
+        margin-top: 2rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
     #tablazat {
         width: auto;
         margin: 2rem auto;
@@ -377,6 +392,11 @@
         margin-right: 3rem;
     }
     /*tablazat*/
+    #det{
+        margin-top: 2rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
     #tablazat {
         width: auto;
         margin: 2rem auto;
@@ -476,6 +496,11 @@
         margin-right: 3rem;
     }
     /*tablazat*/
+    #det{
+        margin-top: 2rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
     #tablazat {
         width: auto;
         margin: 2rem auto;
