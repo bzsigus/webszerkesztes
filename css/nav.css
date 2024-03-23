@@ -288,6 +288,7 @@ footer div{
     font-size: 1rem;
     background-color: #E6E6EA;
     }
+    
     footer p{
       font-size: 1rem;
       padding: .5rem;
@@ -355,7 +356,8 @@ footer div{
        justify-content: center;
        align-self: center;
        font-size: 2rem;
-    }
+}
+
     /*fotter*/
 #line{
     width: 2px;
@@ -365,16 +367,26 @@ footer div{
   }
   footer{
     margin-top: 1.5rem;
+    padding: 1.5rem 0;
     margin-bottom: 0;
     width: 100%;
-    height: 12rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
     font-size: 1.5rem;
     background-color: #E6E6EA;
     }
-    footer p{
+    #disclame{
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        font-size: 1.5rem;
+        background-color: #E6E6EA;
+    }
+    footer#disclame p{
       font-size: 1rem;
       padding: .5rem;
     }
@@ -442,17 +454,26 @@ footer div{
     }
     /*fotter*/
   footer{
-    margin-top: 1.5rem;
+    margin-top: 3rem;
+    padding: 3rem 0;
     margin-bottom: 0;
     width: 100%;
-    height: 12rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
     font-size: 1.5rem;
-    background-color: #E6E6EA;
     }
-    footer p{
+    #disclame{
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        font-size: 1.5rem;
+        background-color: #E6E6EA;
+    }
+    footer#disclame p{
       font-size: 1rem;
       padding: .5rem;
     }

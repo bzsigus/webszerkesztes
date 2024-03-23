@@ -86,16 +86,44 @@ body{
 /*Social Linkek*/
 #linkek{
   text-align: center;
-  margin: 1.5rem;
+  margin: 2rem 0;
+  padding: 2rem 0;
+  background: #777;
+  width: 100%;
+  font-size: 1rem;
   }
-  #linkek #maindiv{
-    margin: 1.5rem;
+  #linkek h2{
+    font-size: 1.5rem;
+  }
+  #mapandopen{
     display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  #nyitva h3{
+    text-align: left;
     font-size: 2rem;
   }
-  .link{
-    margin: 1rem;
+  #nyitva p{
+  margin: 0;
+  padding: 0;
+  text-align: left;
   }
+  #linkek #maindiv{
+    margin: 1.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    font-size: 2.5rem;
+  }
+#contact{
+  margin: 1.5rem 0;
+}
   .fa-instagram{
     background-image: linear-gradient(to bottom right, #405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FCAF45,#FFDC80,#FD1D1D,#F56040);
    background-clip: text;
@@ -125,7 +153,6 @@ body{
     }
    
 }
-
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -212,16 +239,37 @@ body{
 /*Social Linkek*/
 #linkek{
   text-align: center;
-  margin: 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  background-color: #777;
+  }
+  #linkek h2{
+    font-size: 1.5rem;
+  }
+  #mapandopen{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    margin-top: 1rem;
+  }
+  #nyitva h3{
+    text-align: center;
+  }
+  #nyitva p{
+  margin: 0;
+  padding: 0;
+  text-align: left;
   }
   #linkek #maindiv{
-    margin: 1.5rem;
     display: grid;
-    font-size: 2rem;
+    gap: 1rem;
+    font-size: 2.5rem;
   }
-  .link{
-    margin: 1rem;
-  }
+
   .fa-instagram{
     background-image: linear-gradient(to bottom right, #405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FCAF45,#FFDC80,#FD1D1D,#F56040);
    background-clip: text;
@@ -331,12 +379,38 @@ body{
 /*Social Linkek*/
 #linkek{
   text-align: center;
-  margin: 1.5rem;
-  }
+  margin: 1.5rem 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #777;
+}
+
+
+#mapandopen{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+#nyitva h3{
+  text-align: left;
+}
+#nyitva p{
+margin: 0;
+padding: 0;
+text-align: left;
+}
+
+
+
   #linkek #maindiv{
     margin: 1.5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap:1rem;
     font-size: 1.5rem;
   }
   .fa-instagram{
@@ -450,12 +524,34 @@ margin-bottom: 3rem;
 /*Social Linkek*/
 #linkek{
   text-align: center;
-  margin: 1.5rem;
-  }
-  #linkek #maindiv{
-    margin: 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  background-color: #777;
+  width: 100%;
+}
+#mapandopen{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    margin-top: 1rem;
+  }
+#nyitva h3{
+    text-align: left;
+  }
+#nyitva p{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+  #linkek #maindiv{
+    margin: 1.5rem;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 1rem;
     font-size: 2rem;
   }
   .fa-instagram{
@@ -492,8 +588,6 @@ width:100%;
 @media only screen and (min-width: 1200px) {
   .navbar-menu li:nth-child(1) {
     border: .18rem solid rgb(120, 120, 120);
-    padding-left: .5rem;
-    padding-right: .5rem;
     border-radius: 3px;
 }
 /*kep és cim*/
@@ -570,15 +664,38 @@ line-height: 3rem;
 }
 
 
-/*Social Linkek*/
+/*Social Linkek*/ /*Elérhetöségek*/
 #linkek{
 text-align: center;
-margin: 1.5rem;
+margin: 1.5rem 0;
+font-size: 1.5rem;
+background-color: #777;
+width: 100%;
 }
+
+#mapandopen{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+#nyitva h3{
+  text-align: left;
+}
+#nyitva p{
+margin: 0;
+padding: 0;
+text-align: left;
+}
+
 #linkek #maindiv{
   margin: 1.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  gap: 1rem;
   font-size: 3rem;
 }
 .fa-instagram{
@@ -589,7 +706,8 @@ margin: 1.5rem;
 .fa-facebook{
   color: blue;
 }
-/*Vidoe*/
+
+/*Vido*/
 #video h2{
   margin: 2rem;
   text-align: center;

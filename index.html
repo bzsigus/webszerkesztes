@@ -20,32 +20,45 @@
 
 <header>
 <!--Sima nav lapot dekstop-->
-    <nav class="navbar">
-        <div id="logo">
-            <img src="./imgs/logo.png" alt="Logó">
-        <p lang="en">Imaginary</p>
-        </div>
-          <ul class="navbar-menu">
-              <li><a class="aktual" href="./index.html">Főoldal</a></li>
-              <li><a href="./etlap.html">Étlap</a></li>
-              <li><a href="./Itallap.html">Itallap</a></li>
-              <li><a href="./Asztalfoglalas.html">Asztalfoglalás</a></li>
-          </ul>
-          <i class="fas fa-moon icon" onclick="toggleIcon()" ></i>
-      </nav>
+<nav class="navbar">
+
+    <div id="logo">
+        <img src="./imgs/logo.png" alt="Logó">
+    <p lang="en">Imaginary</p>
+    </div>
+
+      <ul class="navbar-menu">
+
+          <li><a class="aktual" href="./index.html">Főoldal</a></li>
+          <li><a href="./etlap.html">Étlap</a></li>
+          <li><a href="./Itallap.html">Itallap</a></li>
+          <li><a href="./Asztalfoglalas.html">Asztalfoglalás</a></li>
+
+      </ul>
+
+      <i class="fas fa-moon icon" onclick="toggleIcon()" ></i>
+
+</nav>
+
 <!-- hamb nav telefon és tablet-->
-      <nav class="hamb-nav">
-        <div id="hamb-logo">
-            <img src="./imgs/logo.png" alt="Logó">
+  <nav class="hamb-nav">
+
+    <div id="hamb-logo">
+
+        <img src="./imgs/logo.png" alt="Logó">
         <p lang="en">Imaginary</p>
-        </div>
-        <div class="hamb-icon" onclick="toggleMenu()">
-        <hr>
-        <hr>
-        <hr>
-        </div>
-        <i class="fas fa-moon hicon" onclick="toggleIcon()" ></i>
-      </nav>
+
+    </div>
+
+    <div class="hamb-icon" onclick="toggleMenu()">
+    <hr>
+    <hr>
+    <hr>
+    </div>
+
+    <i class="fas fa-moon hicon" onclick="toggleIcon()" ></i>
+
+  </nav>
         <ul class="hamb-navbar-menu">
             <li><a  href="./index.html">Főoldal</a></li>
             <li ><a class="aktual" href="./etlap.html">Étlap</a></li>
@@ -56,112 +69,183 @@
 <main>
 <!--Nyitó-->
 <div id="kep">
+
   <a href="#gal" class="accesnavlinks">Nyitókép kihagyása</a>
-         <article class="kepszoveg">
-          <h1>Üdvözlunk éttermunk Weboldalán</h1>
-          <p>Kóstolja meg kulináris remekeinket és élvezze vendégszeretetünket! Várjuk szeretettel éttermünkben!</p>
-           <a href="./Asztalfoglalas.html" id="button"><strong>Asztalfoglalás</strong></a>
-         </article>
+
+  <article class="kepszoveg">
+
+   <h1>Üdvözlunk éttermunk Weboldalán</h1>
+
+   <p>Kóstolja meg kulináris remekeinket és élvezze vendégszeretetünket! Várjuk szeretettel éttermünkben!</p>
+
+    <a href="./Asztalfoglalas.html" id="button"><strong>Asztalfoglalás</strong></a>
+
+  </article>
+
 </div>
+
 <!--Galéria-->
 <section id="gal">
   <a href="#linkek" class="accesnavlinks">Galéria Kihagyása</a>
-              <h2 id="galeryh2">Tekinste meg éttermunk Galáriáját</h2>
-                <div id="cont">
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galria1.jpeg">
-                      <img src="./imgs/fooldal/galria1.jpeg" alt="">
-                    </a>
-                    <figcaption class="desc">Az étterem belső tere csillogó kandeláberekkel és lágy fényekkel várja vendégeit, amelyek kellemes és meghitt légkört teremtenek.</figcaption>
-                  </figure>
-                  
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galeria2.jpg">
-                      <img src="./imgs/fooldal/galeria2.jpg" alt=""  >
-                    </a>
-                    <figcaption class="desc">Az étterem néhány asztalánál impozáns kilátás és tágas panorámaablakok nyújtanak lehetőséget, hogy a vendégek élvezhessék a város vagy a táj szépségét, miközben ízlelik az ételeket és élvezik a társaságot.</figcaption>
-                  </figure>
-                  
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galeria3.jpg">
-                      <img src="./imgs/fooldal/galeria3.jpg" alt="" >
-                    </a>
-                    <figcaption class="desc">A modern és stílusos bútorok és dekorációk harmonikusan egyesülnek az étterem belső terében, létrehozva egy elegáns és kifinomult atmoszférát.</figcaption>
-                  </figure>
-                  
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galeria4.webp">
-                      <img src="./imgs/fooldal/galeria4.webp" alt="">
-                    </a>
-                    <figcaption class="desc">Az étterem belső terében elhelyezett intim asztalok és luxus kényelem ötvözete tökéletes helyszínt teremt egy romantikus vacsorához vagy egy exkluzív üzleti találkozóhoz.</figcaption>
-                  </figure>
-                  
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galeria2-1.jpg">
-                      <img src="./imgs/fooldal/galeria2-1.jpg" alt="" >
-                    </a>
-                    <figcaption class="desc">Friss kevert saláta ágyon fekszik, gazdagon megszórva szezámmaggal és pirított tökmaggal. A tetején kifőzött tojás szeletekkel és friss, ízletes paradicsomkarikákkal. A salátát finom olívabogyók és házi készítésű balzsamecet öntet teszi tökéletessé.</figcaption>
-                  </figure>
-                  
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galeria2-2.jpg">
-                      <img src="./imgs/fooldal/galeria2-2.jpg" alt="" >
-                    </a>
-                    <figcaption class="desc">Száraz vöröslencsés pita különleges, rántott húshoz hasonlító töltelékkel, amelyet körít a ropogós zöldségekkel és a fűszeres jalapeno mártással. Az ételt friss zöldfűszerekkel és pirított szezámmaggal szolgáljuk, hogy az ízek teljesen kibontakozzanak.</figcaption>
-                  </figure>
-                  
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galeria2-3.jpg">
-                      <img src="./imgs/fooldal/galeria2-3.jpg" alt="" >
-                    </a>
-                    <figcaption class="desc">Szárazra sütött karajszelet, melyet ropogósra sütünk és friss salátával tálalunk. Az étel tökéletesen kiegészül a pikáns foghagymás-kapros öntettel, mely fokozza a hús ízét és frissességét. A különleges összeállítás friss zöldségekkel és zöldfűszerekkel garantáltan egy ízletes és egészséges ételélményt kínál.</figcaption>
-                  </figure>
-                  
-                  <figure class="gallery">
-                    <a target="_blank" href="./imgs/fooldal/galeria2-4.jpg">
-                      <img src="./imgs/fooldal/galeria2-4.jpg" alt="" >
-                    </a>
-                    <figcaption class="desc">Egy gazdag, laktató bableves, melyet füstölt hússal és friss zöldségekkel főzünk. A krémes és ízletes leves tökéletes egyensúlyt teremt a szaftos hús és a friss zöldségek között, miközben a füstölt ízjegyek mélyítik az ízélményt.</figcaption>
-                  </figure>
-                  
-                </div>
-            </section>
+
+  <h2 id="galeryh2">Tekinste meg éttermunk Galáriáját</h2>
+
+  <div id="cont">
+      <figure class="gallery">
+
+        <a target="_blank" href="./imgs/fooldal/galria1.jpeg">
+          <img src="./imgs/fooldal/galria1.jpeg" alt="">
+        </a>
+
+        <figcaption class="desc">Az étterem belső tere csillogó kandeláberekkel és lágy fényekkel várja vendégeit, amelyek kellemes és meghitt légkört teremtenek.</figcaption>
+    
+      </figure>
+      
+      <figure class="gallery">
+
+        <a target="_blank" href="./imgs/fooldal/galeria2.jpg">
+          <img src="./imgs/fooldal/galeria2.jpg" alt=""  >
+        </a>
+
+        <figcaption class="desc">Az étterem néhány asztalánál impozáns kilátás és tágas panorámaablakok nyújtanak lehetőséget, hogy a vendégek élvezhessék a város vagy a táj szépségét, miközben ízlelik az ételeket és élvezik a társaságot.</figcaption>
+      
+      </figure>
+      
+      <figure class="gallery">
+
+        <a target="_blank" href="./imgs/fooldal/galeria3.jpg">
+          <img src="./imgs/fooldal/galeria3.jpg" alt="" >
+        </a>
+
+        <figcaption class="desc">A modern és stílusos bútorok és dekorációk harmonikusan egyesülnek az étterem belső terében, létrehozva egy elegáns és kifinomult atmoszférát.</figcaption>
+      
+      </figure>
+      
+      <figure class="gallery">
+
+        <a target="_blank" href="./imgs/fooldal/galeria4.webp">
+          <img src="./imgs/fooldal/galeria4.webp" alt="">
+        </a>
+
+        <figcaption class="desc">Az étterem belső terében elhelyezett intim asztalok és luxus kényelem ötvözete tökéletes helyszínt teremt egy romantikus vacsorához vagy egy exkluzív üzleti találkozóhoz.</figcaption>
+      
+      </figure>
+      
+      <figure class="gallery">
+      
+        <a target="_blank" href="./imgs/fooldal/galeria2-1.jpg">
+          <img src="./imgs/fooldal/galeria2-1.jpg" alt="" >
+        </a>
+      
+        <figcaption class="desc">Friss kevert saláta ágyon fekszik, gazdagon megszórva szezámmaggal és pirított tökmaggal. A tetején kifőzött tojás szeletekkel és friss, ízletes paradicsomkarikákkal. A salátát finom olívabogyók és házi készítésű balzsamecet öntet teszi tökéletessé.</figcaption>
+      
+      </figure>
+      
+      <figure class="gallery">
+      
+        <a target="_blank" href="./imgs/fooldal/galeria2-2.jpg">
+          <img src="./imgs/fooldal/galeria2-2.jpg" alt="" >
+        </a>
+      
+        <figcaption class="desc">Száraz vöröslencsés pita különleges, rántott húshoz hasonlító töltelékkel, amelyet körít a ropogós zöldségekkel és a fűszeres jalapeno mártással. Az ételt friss zöldfűszerekkel és pirított szezámmaggal szolgáljuk, hogy az ízek teljesen kibontakozzanak.</figcaption>
+      
+      </figure>
+      
+      <figure class="gallery">
+      
+        <a target="_blank" href="./imgs/fooldal/galeria2-3.jpg">
+          <img src="./imgs/fooldal/galeria2-3.jpg" alt="" >
+        </a>
+      
+        <figcaption class="desc">Szárazra sütött karajszelet, melyet ropogósra sütünk és friss salátával tálalunk. Az étel tökéletesen kiegészül a pikáns foghagymás-kapros öntettel, mely fokozza a hús ízét és frissességét. A különleges összeállítás friss zöldségekkel és zöldfűszerekkel garantáltan egy ízletes és egészséges ételélményt kínál.</figcaption>
+      
+      </figure>
+      
+      <figure class="gallery">
+      
+        <a target="_blank" href="./imgs/fooldal/galeria2-4.jpg">
+          <img src="./imgs/fooldal/galeria2-4.jpg" alt="" >
+        </a>
+      
+        <figcaption class="desc">Egy gazdag, laktató bableves, melyet füstölt hússal és friss zöldségekkel főzünk. A krémes és ízletes leves tökéletes egyensúlyt teremt a szaftos hús és a friss zöldségek között, miközben a füstölt ízjegyek mélyítik az ízélményt.</figcaption>
+      
+      </figure>
+    
+  </div>
+</section>
+
 <!--Linkek -->
-            <section id="linkek">
-          <a href="#video" class="accesnavlinks">Közösségi hálók kihagyása</a>
-              <h2>Ha további képekre és videókra vagy kíváncsi, tekinsd meg Facebook és Instagram profiljainkat</h2>
-              <div id="maindiv">
-                <div>
-                  <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                </div>
-                <div>
-                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                  <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                </div>
-              </div>
-            </section>
+<section id="linkek">
+
+  <a href="#video" class="accesnavlinks">Közösségi hálók kihagyása</a>
+ 
+  <h2>Ha további képekre és videókra vagy kíváncsi, tekinsd meg Facebook és Instagram profiljainkat,
+        vagy látogass el hozzánk személyesen</h2>
+  
+  <div id="mapandopen">
+    <div id="nyitva">
+      <h3>Nyitvatartás</h3>
+      <p><strong>Hétfő:</strong> 10:00 - 22:00</p>
+      <p><strong>Kedd:</strong> 10:00 - 22:00</p>
+      <p><strong>Szerda:</strong> 10:00 - 22:00</p>
+      <p><strong>Csütörtök:</strong> 10:00 - 22:00</p>
+      <p><strong>Péntek:</strong> 10:00 - 23:00</p>
+      <p><strong>Szombat:</strong> 10:00 - 23:00</p>
+      <p><strong>Vasárnap:</strong> Zárva</p>
+    </div>
+
+    <div id="maindiv">
+    <div>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </div>
+    <div>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      </div>
+    </div>
+
+    <div id="contact">
+    <p><strong>Email Címünk:</strong> Contact.Imaginary@imaginary.hu</p>
+    <p><strong>Telefonszám:</strong> +36 1 234 5678</p>
+    <p><strong>Éttermünk címe:</strong> 1087, Budapest Hős Utca </p>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed/v1/place?q=Budapest%20Hős%20utca&key=AIzaSyATJ16KCO1Tg-losBvYBUBivr1BjAl7cSI" allowfullscreen id="map"></iframe>
+  </div>
+
+
+</section>
 
 <!-- Video-->
-            <section id="video">
-              <a href="#footer" class="accesnavlinks">Videó kihagyása</a>
-              <h2>Egy recept a szakácsunktól</h2>
-              <video src="./imgs/fooldal/video.mp4" controls poster="./imgs/fooldal/indexkép.png" >
-              </video>
-              <p id="leiras"><a href="./videoleiras.html" ><strong>Kattints a videó szöveges leírásának megtekintéséhez</strong></a></p>
-            </section>
+  <section id="video">
+    <a href="#footer" class="accesnavlinks">Videó kihagyása</a>
+    <h2>Egy recept a szakácsunktól</h2>
+    <video src="./imgs/fooldal/video.mp4" controls poster="./imgs/fooldal/indexkép.png" >
+    </video>
+    <p id="leiras"><a href="./videoleiras.html" ><strong>Kattints a videó szöveges leírásának megtekintéséhez</strong></a></p>
+  </section>
 
 
-        </main>
-    <footer id="footer">
-      <a href="#accesnav" class="accesnavlinks">Lábléc Kihagyása és vissza az oldal tetére</a>
-        <div id="footer1andline">
-          <h3>Készítette: Zsigus Bence</h3>
-          <p id="gitlink"><a href="https://github.com/bzsigus" target="_blank">Github</a></p>
-        </div>
-        <p><strong>Az oldalon található képek és videók más tulajdonát képezik,<br>Minden szerzői jog a tartalom eredeti tulajdonosáé!</strong></p>
-    </footer>
-    <a href="#accesnav" class="accesnavlinks">Vissza az oldal tetére</a>
-    <script src="./js/nav.js"></script>
+</main>
+
+
+<footer id="footer">
+  <a href="#accesnav" class="accesnavlinks">Lábléc Kihagyása és vissza az oldal tetére</a>
+    <div id="disclame">
+      <div id="footer1andline">
+        <h3>Készítette: Zsigus Bence</h3>
+        <p id="gitlink"><a href="https://github.com/bzsigus" target="_blank">Github</a></p>
+      </div>
+      <p><strong>Az oldalon található képek és videók más tulajdonát képezik,<br>Minden szerzői jog a tartalom eredeti tulajdonosáé!</strong></p>
+    </div>
+</footer>
+
+
+
+<a href="#accesnav" class="accesnavlinks">Vissza az oldal tetére</a>
+
+<script src="./js/nav.js"></script>
+
 </body>
 </html>
