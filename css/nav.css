@@ -234,8 +234,6 @@ footer div{
     gap:1.5rem;
     height: 15rem;
     }
-   
-    
     .hamb-navbar-menu a {
     text-decoration: none;
     color: black;
@@ -330,6 +328,10 @@ footer div{
       justify-content: space-evenly;
       gap: 3rem;
     }
+    .navbar-menu li{
+        padding-left: .5rem;
+        padding-right: .5rem;
+        }
     .navbar-menu a{
         text-decoration: none;
         color: black;
@@ -414,6 +416,10 @@ footer div{
     .navbar-menu a{
         text-decoration: none;
         color: black;
+    }
+    .navbar-menu li{
+    padding-left: .5rem;
+    padding-right: .5rem;
     }
     #logo img{
         height: 3.5rem;

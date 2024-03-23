@@ -491,7 +491,10 @@ width:100%;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .navbar-menu li:nth-child(1) {
-    border-bottom: .18rem solid rgb(120, 120, 120);
+    border: .18rem solid rgb(120, 120, 120);
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-radius: 3px;
 }
 /*kep és cim*/
 #kep{  
