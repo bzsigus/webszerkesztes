@@ -9,6 +9,15 @@
     <title>Főoldal - Imaginary</title>
 </head>
 <body>
+<!---->
+<div class="accesnavlinks" id="accesnav">
+  <a href="#kep" class="accesnavlinks">Oldalak kozti navigációs sáv átugrása</a>
+  <a href="#gal" class="accesnavlinks">Ugrás a galériára</a>
+  <a href="#linkek" class="accesnavlinks">Ugrás a közösségi média Linkekhez</a>
+  <a href="#video" class="accesnavlinks">Ugrás az oldalon található videóhoz</a>
+  <a href="#footer" class="accesnavlinks">Ugrás a Láblácre</a>
+</div>
+
 <header>
 <!--Sima nav lapot dekstop-->
     <nav class="navbar">
@@ -47,6 +56,7 @@
 <main>
 <!--Nyitó-->
 <div id="kep">
+  <a href="#gal" class="accesnavlinks">Nyitókép kihagyása</a>
          <article class="kepszoveg">
           <h1>Üdvözlunk éttermunk Weboldalán</h1>
           <p>Kóstolja meg kulináris remekeinket és élvezze vendégszeretetünket! Várjuk szeretettel éttermünkben!</p>
@@ -54,7 +64,8 @@
          </article>
 </div>
 <!--Galéria-->
-<section>
+<section id="gal">
+  <a href="#linkek" class="accesnavlinks">Galéria Kihagyása</a>
               <h2 id="galeryh2">Tekinste meg éttermunk Galáriáját</h2>
                 <div id="cont">
                   <figure class="gallery">
@@ -117,6 +128,7 @@
             </section>
 <!--Linkek -->
             <section id="linkek">
+          <a href="#video" class="accesnavlinks">Közösségi hálók kihagyása</a>
               <h2>Ha további képekre és videókra vagy kíváncsi, tekinsd meg Facebook és Instagram profiljainkat</h2>
               <div id="maindiv">
                 <div>
@@ -132,6 +144,7 @@
 
 <!-- Video-->
             <section id="video">
+              <a href="#footer" class="accesnavlinks">Videó kihagyása</a>
               <h2>Egy recept a szakácsunktól</h2>
               <video src="./imgs/fooldal/video.mp4" controls poster="./imgs/fooldal/indexkép.png" >
               </video>
@@ -140,13 +153,15 @@
 
 
         </main>
-    <footer>
+    <footer id="footer">
+      <a href="#accesnav" class="accesnavlinks">Lábléc Kihagyása és vissza az oldal tetére</a>
         <div id="footer1andline">
           <h3>Készítette: Zsigus Bence</h3>
           <p id="gitlink"><a href="https://github.com/bzsigus" target="_blank">Github</a></p>
         </div>
         <p>Az oldalon található képek és videók más tulajdonát képezik,<br>Minden szerzői jog a tartalom eredeti tulajdonosáé!</p>
     </footer>
+    <a href="#accesnav" class="accesnavlinks">Vissza az oldal tetére</a>
     <script src="./js/nav.js"></script>
 </body>
 </html>
