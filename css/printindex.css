@@ -1,0 +1,122 @@
+@media print {
+
+header,footer{
+    display: none;
+}
+#video{
+  display: none;
+}
+
+
+  /*kep és cim*/
+  #kep{  
+      width: 100%;
+      height: fit-content;
+      background-image: url(../imgs/fooldal/galeria2.jpg); 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      gap: 3rem;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+      color: black;
+  }
+  .kepszoveg{
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 1rem;
+  line-height: 3rem;
+  }
+  .kepszoveg h1{
+    margin: 1rem;
+  }
+  .kepszoveg p{
+    margin: 1rem;
+  }
+  #button{
+   display: none;
+  }
+  
+  /*Galéria*/
+  #cont{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    place-items: center;
+}
+#galeryh2{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+.gallery {
+  border: 1px solid #ccc;
+  width: 20rem;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: 10rem;
+}
+
+.desc {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+#gal{
+  margin-bottom: 20rem;
+}
+  /*Social Linkek*/ /*Elérhetöségek*/
+  #linkek{
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #777;
+  width: 100%;
+  }
+  #linkek h2{
+    margin: 0;
+    padding: 0;
+  }
+  #mapandopen{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  #nyitva{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #nyitva h3{
+    text-align: left;
+  }
+  #nyitva p{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  }
+  #linkek #maindiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+  }
+  .fa-instagram{
+ color: purple;
+  }
+  .fa-facebook{
+    color: blue;
+  }
+  
+  }
+  
