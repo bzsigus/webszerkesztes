@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    font-family: sans-serif;
 }
 a {
     color: black;
@@ -119,8 +123,6 @@ footer{
         width: 100%;
         border: none;
     }
-
-
 
 
 #gitlink a{
