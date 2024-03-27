@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="./css/asztalfoglalas.css">
      <link rel="stylesheet" href="./css/nav.css">
+     <link rel="stylesheet" href="./css/printasztal.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Asztalfoglalás - Imaginary</title>
 </head>
@@ -49,10 +50,10 @@
     <h1>Asztalfoglalás</h1>
 <form action="/submit" method="post">
     <label for="name">Név:</label><br>
-    <input type="text" id="name" name="name" required placeholder="Példa Péter"><br><br>
+    <input type="text" id="name" name="name" required placeholder="Példa Péter" maxlength="40"><br><br>
     
     <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required placeholder="peldapeter@pelda.com"><br><br>
+    <input type="email" id="email" name="email" required placeholder="peldapeter@pelda.com" maxlength="50"><br><br>
     
     <label for="table" class="tables">Hány főre?</label>
     <input type="number" id="table"  class="tables" min="1" max="30" required><br><br>
@@ -65,7 +66,7 @@
         <option value="Akadálymentes asztal">Akadálymentes asztal</option>
     </select><br><br>
     <label for="message">Üzenet éttermünk számára:</label><br>
-    <textarea id="message" name="message"  style="resize: none;" placeholder="Írj ide egy üzenetet nekünk"></textarea><br><br>
+    <textarea id="message" name="message"  style="resize: none;" placeholder="Írj ide egy üzenetet nekünk" maxlength="500"></textarea><br><br>
     
     <input type="checkbox" id="terms" name="terms" required>
     <label for="terms">Tudomásul vettem a feltételeket és lefoglalom az asztalt</label><br><br>
@@ -74,7 +75,7 @@
     <input type="reset" value="Eredeti állapot" id="resbutton">
 </form>
 </main>
-<a href="teto" class="accesnavlinks">Láblác kihagyása és vissza az oldal tetére</a>
+<a href="#teto" class="accesnavlinks">Láblác kihagyása és vissza az oldal tetére</a>
 <footer>
     <div id="footer1andline">
       <h3>Készítette: Zsigus Bence</h3>
@@ -82,7 +83,7 @@
     </div>
     <p>Az oldalon található képek és videók más tulajdonát képezik,<br>Minden szerzői jog a tartalom eredeti tulajdonosáé!</p>
 </footer>
-<a href="teto" class="accesnavlinks">Vissza az oldal tetére</a>
+<a href="#teto" class="accesnavlinks">Vissza az oldal tetére</a>
 <script src="./js/nav.js"></script>
 </body>
 </html>
